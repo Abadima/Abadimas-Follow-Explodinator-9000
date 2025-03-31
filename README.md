@@ -17,7 +17,8 @@ Some of you may notice I decided to use noblox.js instead of Roblox's API itself
 - Basic options, like the amount to remove!
   - (worth noting, while you can theoretically set any limit, the more followers/followings you have, the longer it WILL take to remove as unfortunately we do have to respect Roblox's ratelimit, so it may take a while.)
 - Prevents friends from being removed & removed from followers list
-  - In order to remove a follower, we have to block and unblock them, after some consideration, we decided that people might prefer to keep their friends, so by default, you have no choice. (although, I have left a comment in the code to remove the exact line that prevents this, at your own risk of course!)
+  - In order to remove a follower, we have to block and unblock them, after some consideration, we decided that people might prefer to keep their friends, so by default, none of your Roblox friends will ever be affected by this script, but you can change this in the code if you want to remove them too. (read the instructions below for more details)
+- Debugging mode, for those who want to report issues or just want to see what the script is doing behind the scenes.
 
 ## How to Use
 
@@ -25,8 +26,8 @@ Some of you may notice I decided to use noblox.js instead of Roblox's API itself
    Clone this repository to your local machine using Git or download it as a ZIP file and extract it.
 
    ```bash
-   git clone https://github.com/Abadima/Follow-Explodinator-9000.git
-   cd Follow-Explodinator-9000
+   git clone https://github.com/Abadima/Abadimas-Follow-Explodinator-9000.git
+   cd Abadimas-Follow-Explodinator-9000
    ```
 
 2. **Install Dependencies**  
